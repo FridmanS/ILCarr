@@ -1,5 +1,6 @@
 package application;
 
+import models.User;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
@@ -33,5 +34,10 @@ public class UserHelper extends HelperBase{
 
     public void logOut() {
         click(By.xpath("//a[.=' Logout ']"));
+    }
+
+    public void fillLoginForm(User u) {
+        type(By.id("email"), u.getEmail());
+        type(By.id("password"), u.getPassword());
     }
 }

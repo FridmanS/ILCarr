@@ -1,3 +1,4 @@
+import models.User;
 import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
@@ -23,5 +24,17 @@ public class LoginTest extends TestBase {
         app.userHelper().clickOKButton();
         Assert.assertEquals(loginS, "Logged in success");
 
+    }
+
+    @Test
+    public void loginTestPositiveDto(){
+        app.userHelper().openLoginForm();
+        User u1 = new User().withEmail("noa@gmail.com").withPassword("Nnoa12345$");
+        app.userHelper().fillLoginForm(u1);
+        app.userHelper().submitLogin();
+        app.userHelper().pause(3000);
+        String loginS = app.userHelper().getText(By.xpath("//*[.='Logged in success']"));
+        app.userHelper().clickOKButton();
+        Assert.assertEquals(loginS, "Logged in success");
     }
 }
