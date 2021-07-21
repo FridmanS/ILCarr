@@ -22,7 +22,7 @@ public class User {
         return this;
     }
 
-    public User withSName(String sName) {
+    public User withLName(String sName) {
         this.sName = sName;
         return this;
     }
@@ -44,7 +44,7 @@ public class User {
         return fName;
     }
 
-    public String getSName() {
+    public String getLName() {
         return sName;
     }
 
