@@ -3,6 +3,7 @@ package application;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.Select;
 
 public class HelperBase {
 
@@ -36,5 +37,9 @@ public class HelperBase {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
+    }
+
+    public void select(By locator, String options){
+        new Select(wd.findElement(locator)).selectByValue(options);
     }
 }
