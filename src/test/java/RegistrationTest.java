@@ -1,5 +1,4 @@
 import models.User;
-import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -19,8 +18,8 @@ public class RegistrationTest extends TestBase {
         User u1 = new User().withFName("Albert").withLName("Einstein")
                 .withEmail("emc2@gmail.com").withPassword("Hb14031879$");
         app.userHelper().fillRegistrationForm(u1);
-        app.userHelper().submitRegistration();
-        Assert.assertEquals(app.userHelper().textResult(), "Registered");
+        app.userHelper().submitForm();
+        Assert.assertEquals(app.userHelper().getTextRegResult(), "Registered");
     }
 
 }

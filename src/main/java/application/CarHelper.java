@@ -15,6 +15,8 @@ public class CarHelper extends HelperBase{
         click(By.id("1"));
     }
 
+
+
     public void fillCarForm(Car car) {
         if(isCarFormPresent()){
             typeLocation(car.getAddress());
@@ -59,7 +61,21 @@ public class CarHelper extends HelperBase{
     }
 
     public void attachPhoto() {
-        wd.findElement(By.id("photos")).sendKeys("D:\\Downloads\\bmw.jpeg");
-        pause(7000);
+        wd.findElement(By.id("photos")).sendKeys("G:\\Download\\bmw.jpeg");
+        pause(10000);
     }
+
+    public String getTextAddCarResult() {
+        return getText(By.xpath("//*[.='Car added']"));
+    }
+
+    public void submitCar() {
+        click(By.xpath("//*[.='Submit']"));
+    }
+
+    public boolean isListOfCarAppeared() {
+        return elementIsPresent(By.cssSelector("div.search-results"));
+    }
+
+
 }

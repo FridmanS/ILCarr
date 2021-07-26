@@ -20,7 +20,7 @@ public class UserHelper extends HelperBase{
         type(By.id("password"), password);
     }
 
-    public void submitLogin() {
+    public void submitForm() {
         click(By.xpath("//button[@type='submit']"));
     }
 
@@ -53,11 +53,16 @@ public class UserHelper extends HelperBase{
         click(By.xpath("//label[@class='checkbox-label terms-label']"));
     }
 
-    public void submitRegistration() {
-        click(By.xpath("//button[@*='submit']"));
+    public String getTextRegResult() {
+        return getText(By.xpath("//*[.='Registered']"));
     }
 
-    public String textResult() {
-        return getText(By.xpath("//*[.='Registered']"));
+    public void login(User u) {
+        openLoginForm();
+        fillLoginForm(u.getEmail(), u.getPassword());
+        submitForm();
+        waitForElementPresent(By.xpath("//button[.='Ok']"), 10);
+        clickOKButton();
+        pause(3000);
     }
 }

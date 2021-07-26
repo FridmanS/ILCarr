@@ -18,7 +18,7 @@ public class LoginTest extends TestBase {
 
         app.userHelper().openLoginForm();
         app.userHelper().fillLoginForm("noa@gmail.com", "Nnoa12345$");
-        app.userHelper().submitLogin();
+        app.userHelper().submitForm();
         app.userHelper().pause(3000);
         String loginS = app.userHelper().getText(By.xpath("//*[.='Logged in success']"));
         app.userHelper().clickOKButton();
@@ -31,7 +31,7 @@ public class LoginTest extends TestBase {
         app.userHelper().openLoginForm();
         User u1 = new User().withEmail("noa@gmail.com").withPassword("Nnoa12345$");
         app.userHelper().fillLoginForm(u1);
-        app.userHelper().submitLogin();
+        app.userHelper().submitForm();
         app.userHelper().pause(3000);
         String loginS = app.userHelper().getText(By.xpath("//*[.='Logged in success']"));
         app.userHelper().clickOKButton();

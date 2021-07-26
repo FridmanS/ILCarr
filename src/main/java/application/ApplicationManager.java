@@ -12,6 +12,7 @@ public class ApplicationManager {
     WebDriver wd;
     UserHelper userHelper;
     CarHelper carHelper;
+    SearchHelper searchHelper;
 
     public void init(){
         wd = new ChromeDriver();
@@ -20,6 +21,7 @@ public class ApplicationManager {
         wd.navigate().to("https://ilcarro.xyz/search");
         userHelper = new UserHelper(wd);
         carHelper = new CarHelper(wd);
+        searchHelper = new SearchHelper(wd);
     }
 
     public void stop(){
@@ -31,4 +33,5 @@ public class ApplicationManager {
     }
 
     public CarHelper carHelper() { return carHelper;}
+    public SearchHelper searchHelper(){ return searchHelper; }
 }

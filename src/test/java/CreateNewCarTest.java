@@ -1,4 +1,6 @@
 import models.Car;
+import models.User;
+import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -6,7 +8,11 @@ public class CreateNewCarTest extends TestBase{
 
     @BeforeMethod
     public void preCondition(){
-        //login
+        if(app.userHelper().isLogged()){
+            User u = new User().withEmail("noa@gmail.com")
+                    .withPassword("Nnoa12345$");
+            app.userHelper().login(u);
+        }
     }
 
     @Test
@@ -36,7 +42,8 @@ public class CreateNewCarTest extends TestBase{
         app.carHelper().openCarForm();
         app.carHelper().fillCarForm(car1);
         app.carHelper().attachPhoto();
+        app.carHelper().submitCar();
 
-
+        Assert.assertEquals(app.carHelper().getTextAddCarResult(), "Car added");
     }
 }
