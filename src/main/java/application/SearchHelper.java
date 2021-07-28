@@ -70,8 +70,14 @@ public class SearchHelper extends HelperBase{
         String[] dateT = dateTo.split("/");
 
         int diffStart = 0;
-        if(LocalDate.now().getMonthValue() != Integer.parseInt(dateF[0])){
-            diffStart = Integer.parseInt(dateF[0]) - LocalDate.now().getMonthValue();
+        int diffFin = 0;
+
+        int monthFromValue = Integer.parseInt(dateF[0]);
+        int monthToValue = Integer.parseInt(dateT[0]);
+        int monthNowValue = LocalDate.now().getMonthValue();
+
+        if(monthNowValue != monthFromValue){
+            diffStart = monthFromValue - monthNowValue;
         }
         for (int i = 0; i < diffStart; i++) {
             click(By.xpath("//button[@aria-label='Next month']"));
@@ -79,5 +85,13 @@ public class SearchHelper extends HelperBase{
         String dateLocatorFrom = String.format("//div[text() = ' %s ']", dateF[1]);
         click(By.xpath(dateLocatorFrom));
 
+        if(monthFromValue != monthToValue){
+            diffFin = monthToValue - monthFromValue;
+        }
+        for (int i = 0; i < diffFin; i++) {
+            click(By.xpath("//button[@aria-label='Next month']"));
+        }
+        String dateLocatorTo = String.format("//div[text() = ' %s ']", dateT[1]);
+        click(By.xpath(dateLocatorTo));
     }
 }
