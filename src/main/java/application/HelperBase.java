@@ -66,4 +66,9 @@ public class HelperBase {
             e.printStackTrace();
         }
     }
+
+    public void openMainPage() {
+        click(By.xpath("//a[@href='/']"));
+        waitForElementPresent(By.cssSelector(".search-container"), 10);
+    }
 }

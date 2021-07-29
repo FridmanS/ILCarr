@@ -1,12 +1,18 @@
 import org.testng.Assert;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 public class SearchTest extends TestBase {
 
+    @BeforeMethod
+    public void preCondition(){
+        app.userHelper().openMainPage();
+    }
+
     @Test
     public void searchTestPositive(){
         //with concatenate String
-        app.searchHelper().typeSearchCurrentMonth("Haifa", "07/26/2021", "07/30/2021");
+        app.searchHelper().typeSearchCurrentMonth("Haifa", "08/26/2021", "08/30/2021");
         app.userHelper().submitForm();
         Assert.assertTrue(app.carHelper().isListOfCarAppeared());
     }
@@ -21,7 +27,7 @@ public class SearchTest extends TestBase {
 
     @Test
     public void selectPeriodCurrentMonth(){
-        app.searchHelper().fillSearchFormCurrentMonth("Haifa", "07/26/2021", "07/30/2021");
+        app.searchHelper().fillSearchFormCurrentMonth("Haifa", "08/26/2021", "08/30/2021");
         app.userHelper().submitForm();
         Assert.assertTrue(app.carHelper().isListOfCarAppeared());
     }
