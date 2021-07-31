@@ -23,3 +23,19 @@ dependencies {
 test {
     useTestNG()
 }
+task reg(type: Test){
+    useTestNG() {
+        def groups = System.getProperty('groups')
+        if (groups != null) {
+            includeGroups groups
+        }
+
+        def suit = System.getProperty('suite', '')
+            suites 'src/test/resources/quick.xml'
+        if (project.hasProperty('browser')) {
+            systemProperty 'browser', "${browser}"
+        }
+    }
+}
+
+

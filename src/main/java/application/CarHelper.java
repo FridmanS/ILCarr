@@ -66,6 +66,7 @@ public class CarHelper extends HelperBase{
     }
 
     public String getTextAddCarResult() {
+        waitForElementPresent(By.xpath("//*[.='Car added']"), 10);
         return getText(By.xpath("//*[.='Car added']"));
     }
 
@@ -78,4 +79,7 @@ public class CarHelper extends HelperBase{
     }
 
 
+    public void closeMessage() {
+        click(By.xpath("//button[.='Search cars']"));
+    }
 }

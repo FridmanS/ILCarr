@@ -2,6 +2,8 @@ package application;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.remote.BrowserType;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 
@@ -13,9 +15,18 @@ public class ApplicationManager {
     UserHelper userHelper;
     CarHelper carHelper;
     SearchHelper searchHelper;
+    String browser;
+
+    public ApplicationManager(String browser) {
+        this.browser = browser;
+    }
 
     public void init(){
-        wd = new ChromeDriver();
+        if(browser.equals(BrowserType.CHROME)){
+            wd = new ChromeDriver();
+        }else if(browser.equals(BrowserType.FIREFOX)){
+            wd = new FirefoxDriver();
+        }
         wd.manage().window().maximize();
         wd.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         wd.navigate().to("https://ilcarro.xyz/search");
