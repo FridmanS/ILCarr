@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 
 public class CreateNewCarTest extends TestBase{
 
-    @BeforeMethod
+    @BeforeMethod(alwaysRun = true)
     public void preCondition(){
         if(app.userHelper().isLogged()){
             User u = new User().withEmail("noa@gmail.com")
@@ -46,7 +46,10 @@ public class CreateNewCarTest extends TestBase{
         app.carHelper().submitCar();
 
         Assert.assertEquals(app.carHelper().getTextAddCarResult(), "Car added");
+    }
 
+    @AfterMethod(alwaysRun = true)
+    public void postCondition(){
         app.carHelper().closeMessage();
     }
 

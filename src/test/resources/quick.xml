@@ -2,6 +2,7 @@
 
 <suite name="Reg" verbose="1" >
 
+
     <test name="Reg">
         <classes>
             <class name="LoginTest"/>

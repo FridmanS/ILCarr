@@ -57,6 +57,7 @@ public class UserHelper extends HelperBase{
     }
 
     public String getTextRegResult() {
+        pause(5000);
         return getText(By.xpath("//*[.='Registered']"));
     }
 

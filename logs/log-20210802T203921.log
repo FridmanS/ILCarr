@@ -1,0 +1,5 @@
+20:39:22 INFO  application.ApplicationManager - Start browser CHROME
+20:39:24 INFO  application.ApplicationManager - Navigate to https://ilcarro.xyz/search
+20:39:24 INFO  TestBase - Start method: searchTestPositive
+20:39:24 INFO  TestBase - "Haifa", "08/26/2021", "08/30/2021"
+20:39:25 INFO  TestBase - End of method: searchTestPositive

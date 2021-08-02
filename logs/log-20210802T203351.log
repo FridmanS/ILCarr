@@ -1,0 +1,6 @@
+20:33:53 INFO  application.ApplicationManager - Start browser CHROME
+20:33:55 INFO  application.ApplicationManager - Navigate to https://ilcarro.xyz/search
+20:33:55 INFO  TestBase - Start method: registrationTestPositive
+20:33:55 INFO  TestBase - Registration with Name: Albert, LastName: Einstein, Email: emc2@gmail.com2035, Password: Hb14031879$
+20:34:00 INFO  TestBase - Test passed
+20:34:00 INFO  TestBase - End of method: registrationTestPositive
