@@ -1,0 +1,4 @@
+17:35:51 INFO  application.ApplicationManager - Start browser CHROME
+17:35:52 INFO  application.ApplicationManager - Navigate to https://ilcarro.xyz/search
+17:35:52 INFO  TestBase - Start method: registrationTestFromDPClass
+17:35:53 INFO  TestBase - Registration with Name: Sony, LastName: Low, Email: noa@gmail.com, Password: Nnoa12345$

@@ -33,7 +33,7 @@ public class CarHelper extends HelperBase{
             type(By.id("seats"), car.getSeats());
             type(By.id("class"), car.getClasS());
             type(By.id("fuelConsumption"), car.getFuelConsumption());
-            type(By.id("serialNumber"), car.getCarRegNumber());
+            type(By.id("serialNumber"), car.getCarRegNumber() + (System.currentTimeMillis()/1000)%3600);
             type(By.id("price"), car.getPrice());
             type(By.id("distance"), car.getDistanceIncluded());
             type(By.cssSelector(".feature-input"), car.getTypeFeature());
@@ -64,7 +64,10 @@ public class CarHelper extends HelperBase{
         wd.findElement(By.id("photos")).sendKeys("G:\\Download\\bmw.jpeg");
         pause(10000);
     }
-
+    public void attachPhoto(Car car) {
+        wd.findElement(By.id("photos")).sendKeys(car.getPhotoPath());
+        pause(10000);
+    }
     public String getTextAddCarResult() {
         waitForElementPresent(By.xpath("//*[.='Car added']"), 10);
         return getText(By.xpath("//*[.='Car added']"));
@@ -82,4 +85,6 @@ public class CarHelper extends HelperBase{
     public void closeMessage() {
         click(By.xpath("//button[.='Search cars']"));
     }
+
+
 }

@@ -1,0 +1,14 @@
+17:32:26 INFO  application.ApplicationManager - Start browser CHROME
+17:32:28 INFO  application.ApplicationManager - Navigate to https://ilcarro.xyz/search
+17:32:28 INFO  TestBase - Start method: registrationTestCSV
+17:32:28 INFO  TestBase - Registration with Name: Sony, LastName: Low, Email: low@gmail.com, Password: Ll12345$
+17:32:33 INFO  TestBase - Test passed
+17:32:33 INFO  TestBase - End of method: registrationTestCSV
+17:32:33 INFO  TestBase - Start method: registrationTestCSV
+17:32:44 INFO  TestBase - Registration with Name: Sony, LastName: Low, Email: low+1@gmail.com, Password: Ll12345$
+17:32:49 INFO  TestBase - Test passed
+17:32:49 INFO  TestBase - End of method: registrationTestCSV
+17:32:49 INFO  TestBase - Start method: registrationTestCSV
+17:33:00 INFO  TestBase - Registration with Name: Sony, LastName: Low, Email: low+2@gmail.com, Password: Ll12345$
+17:33:05 INFO  TestBase - Test passed
+17:33:05 INFO  TestBase - End of method: registrationTestCSV

@@ -28,4 +28,5 @@ public class Car {
     private String distanceIncluded;
     private String typeFeature;
     private  String about;
+    private String photoPath;
 }

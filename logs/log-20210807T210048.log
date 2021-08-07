@@ -1,0 +1,595 @@
+INFO  application.ApplicationManager - Start browser CHROME
+INFO  application.ApplicationManager - Navigate to https://ilcarro.xyz/search
+INFO  TestBase - Start method: createNewCar
+INFO  application.MyListener - Start finde element by --> By.xpath: //*[.=' Log in ']
+INFO  application.MyListener - The element By.xpath: //*[.=' Log in '] was found
+INFO  application.MyListener - Start finde element by --> By.xpath: //*[.=' Log in ']
+INFO  application.MyListener - The element By.xpath: //*[.=' Log in '] was found
+INFO  application.MyListener - Start finde element by --> By.id: email
+INFO  application.MyListener - The element By.id: email was found
+INFO  application.MyListener - Start finde element by --> By.id: password
+INFO  application.MyListener - The element By.id: password was found
+INFO  application.MyListener - Start finde element by --> By.xpath: //button[@type='submit']
+INFO  application.MyListener - The element By.xpath: //button[@type='submit'] was found
+INFO  application.MyListener - Start finde element by --> By.xpath: //button[.='Ok']
+INFO  application.MyListener - The element By.xpath: //button[.='Ok'] was found
+INFO  application.MyListener - Start finde element by --> By.xpath: //button[.='Ok']
+INFO  application.MyListener - The element By.xpath: //button[.='Ok'] was found
+INFO  application.MyListener - Start finde element by --> By.id: 1
+INFO  application.MyListener - The element By.id: 1 was found
+INFO  application.MyListener - Start finde element by --> By.xpath: //h1
+INFO  application.MyListener - The element By.xpath: //h1 was found
+INFO  application.MyListener - Start finde element by --> By.id: pickUpPlace
+INFO  application.MyListener - The element By.id: pickUpPlace was found
+INFO  application.MyListener - Start finde element by --> By.cssSelector: div.pac-item
+INFO  application.MyListener - The element By.cssSelector: div.pac-item was found
+INFO  application.MyListener - Start finde element by --> By.id: make
+INFO  application.MyListener - The element By.id: make was found
+INFO  application.MyListener - Start finde element by --> By.id: model
+INFO  application.MyListener - The element By.id: model was found
+INFO  application.MyListener - Start finde element by --> By.id: year
+INFO  application.MyListener - The element By.id: year was found
+INFO  application.MyListener - Start finde element by --> By.id: engine
+INFO  application.MyListener - The element By.id: engine was found
+INFO  application.MyListener - Start finde element by --> By.id: fuel
+INFO  application.MyListener - The element By.id: fuel was found
+INFO  application.MyListener - Start finde element by --> By.xpath: .//option[@value = "Petrol"]
+INFO  application.MyListener - The element By.xpath: .//option[@value = "Petrol"] was found
+INFO  application.MyListener - Start finde element by --> By.id: gear
+INFO  application.MyListener - The element By.id: gear was found
+INFO  application.MyListener - Start finde element by --> By.xpath: .//option[@value = "MT"]
+INFO  application.MyListener - The element By.xpath: .//option[@value = "MT"] was found
+INFO  application.MyListener - Start finde element by --> By.id: wheelsDrive
+INFO  application.MyListener - The element By.id: wheelsDrive was found
+INFO  application.MyListener - Start finde element by --> By.xpath: .//option[@value = "AWD"]
+INFO  application.MyListener - The element By.xpath: .//option[@value = "AWD"] was found
+INFO  application.MyListener - Start finde element by --> By.id: doors
+INFO  application.MyListener - The element By.id: doors was found
+INFO  application.MyListener - Start finde element by --> By.id: seats
+INFO  application.MyListener - The element By.id: seats was found
+INFO  application.MyListener - Start finde element by --> By.id: class
+INFO  application.MyListener - The element By.id: class was found
+INFO  application.MyListener - Start finde element by --> By.id: fuelConsumption
+INFO  application.MyListener - The element By.id: fuelConsumption was found
+INFO  application.MyListener - Start finde element by --> By.id: serialNumber
+INFO  application.MyListener - The element By.id: serialNumber was found
+INFO  application.MyListener - Start finde element by --> By.id: price
+INFO  application.MyListener - The element By.id: price was found
+INFO  application.MyListener - Start finde element by --> By.id: distance
+INFO  application.MyListener - The element By.id: distance was found
+INFO  application.MyListener - Start finde element by --> By.cssSelector: .feature-input
+INFO  application.MyListener - The element By.cssSelector: .feature-input was found
+INFO  application.MyListener - Start finde element by --> By.id: about
+INFO  application.MyListener - The element By.id: about was found
+INFO  application.MyListener - Start finde element by --> By.id: photos
+INFO  application.MyListener - The element By.id: photos was found
+INFO  application.MyListener - Start finde element by --> By.xpath: //*[.='Submit']
+INFO  application.MyListener - The element By.xpath: //*[.='Submit'] was found
+INFO  application.MyListener - Start finde element by --> By.xpath: //*[.='Car added']
+INFO  application.MyListener - The element By.xpath: //*[.='Car added'] was found
+INFO  application.MyListener - Start finde element by --> By.xpath: //*[.='Car added']
+INFO  application.MyListener - The element By.xpath: //*[.='Car added'] was found
+INFO  application.MyListener - Start finde element by --> By.xpath: //button[.='Search cars']
+INFO  application.MyListener - The element By.xpath: //button[.='Search cars'] was found
+INFO  TestBase - End of method: createNewCar
+INFO  TestBase - Start method: createNewCarDP
+INFO  application.MyListener - Start finde element by --> By.xpath: //*[.=' Log in ']
+INFO  application.MyListener - The element By.xpath: //*[.=' Log in '] was found
+INFO  application.MyListener - Start finde element by --> By.id: 1
+INFO  application.MyListener - The element By.id: 1 was found
+INFO  application.MyListener - Start finde element by --> By.xpath: //h1
+INFO  application.MyListener - The element By.xpath: //h1 was found
+INFO  application.MyListener - Start finde element by --> By.id: pickUpPlace
+INFO  application.MyListener - The element By.id: pickUpPlace was found
+INFO  application.MyListener - Start finde element by --> By.cssSelector: div.pac-item
+INFO  application.MyListener - The element By.cssSelector: div.pac-item was found
+INFO  application.MyListener - Start finde element by --> By.id: make
+INFO  application.MyListener - The element By.id: make was found
+INFO  application.MyListener - Start finde element by --> By.id: model
+INFO  application.MyListener - The element By.id: model was found
+INFO  application.MyListener - Start finde element by --> By.id: year
+INFO  application.MyListener - The element By.id: year was found
+INFO  application.MyListener - Start finde element by --> By.id: engine
+INFO  application.MyListener - The element By.id: engine was found
+INFO  application.MyListener - Start finde element by --> By.id: fuel
+INFO  application.MyListener - The element By.id: fuel was found
+INFO  application.MyListener - Start finde element by --> By.xpath: .//option[@value = "Petrol"]
+INFO  application.MyListener - The element By.xpath: .//option[@value = "Petrol"] was found
+INFO  application.MyListener - Start finde element by --> By.id: gear
+INFO  application.MyListener - The element By.id: gear was found
+INFO  application.MyListener - Start finde element by --> By.xpath: .//option[@value = "MT"]
+INFO  application.MyListener - The element By.xpath: .//option[@value = "MT"] was found
+INFO  application.MyListener - Start finde element by --> By.id: wheelsDrive
+INFO  application.MyListener - The element By.id: wheelsDrive was found
+INFO  application.MyListener - Start finde element by --> By.xpath: .//option[@value = "AWD"]
+INFO  application.MyListener - The element By.xpath: .//option[@value = "AWD"] was found
+INFO  application.MyListener - Start finde element by --> By.id: doors
+INFO  application.MyListener - The element By.id: doors was found
+INFO  application.MyListener - Start finde element by --> By.id: seats
+INFO  application.MyListener - The element By.id: seats was found
+INFO  application.MyListener - Start finde element by --> By.id: class
+INFO  application.MyListener - The element By.id: class was found
+INFO  application.MyListener - Start finde element by --> By.id: fuelConsumption
+INFO  application.MyListener - The element By.id: fuelConsumption was found
+INFO  application.MyListener - Start finde element by --> By.id: serialNumber
+INFO  application.MyListener - The element By.id: serialNumber was found
+INFO  application.MyListener - Start finde element by --> By.id: price
+INFO  application.MyListener - The element By.id: price was found
+INFO  application.MyListener - Start finde element by --> By.id: distance
+INFO  application.MyListener - The element By.id: distance was found
+INFO  application.MyListener - Start finde element by --> By.cssSelector: .feature-input
+INFO  application.MyListener - The element By.cssSelector: .feature-input was found
+INFO  application.MyListener - Start finde element by --> By.id: about
+INFO  application.MyListener - The element By.id: about was found
+INFO  application.MyListener - Start finde element by --> By.id: photos
+INFO  application.MyListener - The element By.id: photos was found
+INFO  application.MyListener - Start finde element by --> By.xpath: //*[.='Submit']
+INFO  application.MyListener - The element By.xpath: //*[.='Submit'] was found
+INFO  application.MyListener - Start finde element by --> By.xpath: //*[.='Car added']
+INFO  application.MyListener - The element By.xpath: //*[.='Car added'] was found
+INFO  application.MyListener - Start finde element by --> By.xpath: //*[.='Car added']
+INFO  application.MyListener - The element By.xpath: //*[.='Car added'] was found
+INFO  application.MyListener - Start finde element by --> By.xpath: //button[.='Search cars']
+INFO  application.MyListener - The element By.xpath: //button[.='Search cars'] was found
+INFO  TestBase - End of method: createNewCarDP
+INFO  TestBase - Start method: createNewCarDP
+INFO  application.MyListener - Start finde element by --> By.xpath: //*[.=' Log in ']
+INFO  application.MyListener - The element By.xpath: //*[.=' Log in '] was found
+INFO  application.MyListener - Start finde element by --> By.id: 1
+INFO  application.MyListener - The element By.id: 1 was found
+INFO  application.MyListener - Start finde element by --> By.xpath: //h1
+INFO  application.MyListener - The element By.xpath: //h1 was found
+INFO  application.MyListener - Start finde element by --> By.id: pickUpPlace
+INFO  application.MyListener - The element By.id: pickUpPlace was found
+INFO  application.MyListener - Start finde element by --> By.cssSelector: div.pac-item
+INFO  application.MyListener - The element By.cssSelector: div.pac-item was found
+INFO  application.MyListener - Start finde element by --> By.id: make
+INFO  application.MyListener - The element By.id: make was found
+INFO  application.MyListener - Start finde element by --> By.id: model
+INFO  application.MyListener - The element By.id: model was found
+INFO  application.MyListener - Start finde element by --> By.id: year
+INFO  application.MyListener - The element By.id: year was found
+INFO  application.MyListener - Start finde element by --> By.id: engine
+INFO  application.MyListener - The element By.id: engine was found
+INFO  application.MyListener - Start finde element by --> By.id: fuel
+INFO  application.MyListener - The element By.id: fuel was found
+INFO  application.MyListener - Start finde element by --> By.xpath: .//option[@value = "Petrol"]
+INFO  application.MyListener - The element By.xpath: .//option[@value = "Petrol"] was found
+INFO  application.MyListener - Start finde element by --> By.id: gear
+INFO  application.MyListener - The element By.id: gear was found
+INFO  application.MyListener - Start finde element by --> By.xpath: .//option[@value = "MT"]
+INFO  application.MyListener - The element By.xpath: .//option[@value = "MT"] was found
+INFO  application.MyListener - Start finde element by --> By.id: wheelsDrive
+INFO  application.MyListener - The element By.id: wheelsDrive was found
+INFO  application.MyListener - Start finde element by --> By.xpath: .//option[@value = "AWD"]
+INFO  application.MyListener - The element By.xpath: .//option[@value = "AWD"] was found
+INFO  application.MyListener - Start finde element by --> By.id: doors
+INFO  application.MyListener - The element By.id: doors was found
+INFO  application.MyListener - Start finde element by --> By.id: seats
+INFO  application.MyListener - The element By.id: seats was found
+INFO  application.MyListener - Start finde element by --> By.id: class
+INFO  application.MyListener - The element By.id: class was found
+INFO  application.MyListener - Start finde element by --> By.id: fuelConsumption
+INFO  application.MyListener - The element By.id: fuelConsumption was found
+INFO  application.MyListener - Start finde element by --> By.id: serialNumber
+INFO  application.MyListener - The element By.id: serialNumber was found
+INFO  application.MyListener - Start finde element by --> By.id: price
+INFO  application.MyListener - The element By.id: price was found
+INFO  application.MyListener - Start finde element by --> By.id: distance
+INFO  application.MyListener - The element By.id: distance was found
+INFO  application.MyListener - Start finde element by --> By.cssSelector: .feature-input
+INFO  application.MyListener - The element By.cssSelector: .feature-input was found
+INFO  application.MyListener - Start finde element by --> By.id: about
+INFO  application.MyListener - The element By.id: about was found
+INFO  application.MyListener - Start finde element by --> By.id: photos
+INFO  application.MyListener - The element By.id: photos was found
+INFO  application.MyListener - Start finde element by --> By.xpath: //*[.='Submit']
+INFO  application.MyListener - The element By.xpath: //*[.='Submit'] was found
+INFO  application.MyListener - Start finde element by --> By.xpath: //*[.='Car added']
+INFO  application.MyListener - The element By.xpath: //*[.='Car added'] was found
+INFO  application.MyListener - Start finde element by --> By.xpath: //*[.='Car added']
+INFO  application.MyListener - The element By.xpath: //*[.='Car added'] was found
+INFO  application.MyListener - Start finde element by --> By.xpath: //button[.='Search cars']
+INFO  application.MyListener - The element By.xpath: //button[.='Search cars'] was found
+INFO  TestBase - End of method: createNewCarDP
+INFO  TestBase - Start method: createNewCarDP
+INFO  application.MyListener - Start finde element by --> By.xpath: //*[.=' Log in ']
+INFO  application.MyListener - The element By.xpath: //*[.=' Log in '] was found
+INFO  application.MyListener - Start finde element by --> By.id: 1
+INFO  application.MyListener - The element By.id: 1 was found
+INFO  application.MyListener - Start finde element by --> By.xpath: //h1
+INFO  application.MyListener - The element By.xpath: //h1 was found
+INFO  application.MyListener - Start finde element by --> By.id: pickUpPlace
+INFO  application.MyListener - The element By.id: pickUpPlace was found
+INFO  application.MyListener - Start finde element by --> By.cssSelector: div.pac-item
+INFO  application.MyListener - The element By.cssSelector: div.pac-item was found
+INFO  application.MyListener - Start finde element by --> By.id: make
+INFO  application.MyListener - The element By.id: make was found
+INFO  application.MyListener - Start finde element by --> By.id: model
+INFO  application.MyListener - The element By.id: model was found
+INFO  application.MyListener - Start finde element by --> By.id: year
+INFO  application.MyListener - The element By.id: year was found
+INFO  application.MyListener - Start finde element by --> By.id: engine
+INFO  application.MyListener - The element By.id: engine was found
+INFO  application.MyListener - Start finde element by --> By.id: fuel
+INFO  application.MyListener - The element By.id: fuel was found
+INFO  application.MyListener - Start finde element by --> By.xpath: .//option[@value = "Petrol"]
+INFO  application.MyListener - The element By.xpath: .//option[@value = "Petrol"] was found
+INFO  application.MyListener - Start finde element by --> By.id: gear
+INFO  application.MyListener - The element By.id: gear was found
+INFO  application.MyListener - Start finde element by --> By.xpath: .//option[@value = "MT"]
+INFO  application.MyListener - The element By.xpath: .//option[@value = "MT"] was found
+INFO  application.MyListener - Start finde element by --> By.id: wheelsDrive
+INFO  application.MyListener - The element By.id: wheelsDrive was found
+INFO  application.MyListener - Start finde element by --> By.xpath: .//option[@value = "AWD"]
+INFO  application.MyListener - The element By.xpath: .//option[@value = "AWD"] was found
+INFO  application.MyListener - Start finde element by --> By.id: doors
+INFO  application.MyListener - The element By.id: doors was found
+INFO  application.MyListener - Start finde element by --> By.id: seats
+INFO  application.MyListener - The element By.id: seats was found
+INFO  application.MyListener - Start finde element by --> By.id: class
+INFO  application.MyListener - The element By.id: class was found
+INFO  application.MyListener - Start finde element by --> By.id: fuelConsumption
+INFO  application.MyListener - The element By.id: fuelConsumption was found
+INFO  application.MyListener - Start finde element by --> By.id: serialNumber
+INFO  application.MyListener - The element By.id: serialNumber was found
+INFO  application.MyListener - Start finde element by --> By.id: price
+INFO  application.MyListener - The element By.id: price was found
+INFO  application.MyListener - Start finde element by --> By.id: distance
+INFO  application.MyListener - The element By.id: distance was found
+INFO  application.MyListener - Start finde element by --> By.cssSelector: .feature-input
+INFO  application.MyListener - The element By.cssSelector: .feature-input was found
+INFO  application.MyListener - Start finde element by --> By.id: about
+INFO  application.MyListener - The element By.id: about was found
+INFO  application.MyListener - Start finde element by --> By.id: photos
+INFO  application.MyListener - The element By.id: photos was found
+INFO  application.MyListener - Start finde element by --> By.xpath: //*[.='Submit']
+INFO  application.MyListener - The element By.xpath: //*[.='Submit'] was found
+INFO  application.MyListener - Start finde element by --> By.xpath: //*[.='Car added']
+INFO  application.MyListener - The element By.xpath: //*[.='Car added'] was found
+INFO  application.MyListener - Start finde element by --> By.xpath: //*[.='Car added']
+INFO  application.MyListener - The element By.xpath: //*[.='Car added'] was found
+INFO  application.MyListener - Start finde element by --> By.xpath: //button[.='Search cars']
+INFO  application.MyListener - The element By.xpath: //button[.='Search cars'] was found
+INFO  TestBase - End of method: createNewCarDP
+INFO  TestBase - Start method: createNewCarDP
+INFO  application.MyListener - Start finde element by --> By.xpath: //*[.=' Log in ']
+INFO  application.MyListener - The element By.xpath: //*[.=' Log in '] was found
+INFO  application.MyListener - Start finde element by --> By.id: 1
+INFO  application.MyListener - The element By.id: 1 was found
+INFO  application.MyListener - Start finde element by --> By.xpath: //h1
+INFO  application.MyListener - The element By.xpath: //h1 was found
+INFO  application.MyListener - Start finde element by --> By.id: pickUpPlace
+INFO  application.MyListener - The element By.id: pickUpPlace was found
+INFO  application.MyListener - Start finde element by --> By.cssSelector: div.pac-item
+INFO  application.MyListener - The element By.cssSelector: div.pac-item was found
+INFO  application.MyListener - Start finde element by --> By.id: make
+INFO  application.MyListener - The element By.id: make was found
+INFO  application.MyListener - Start finde element by --> By.id: model
+INFO  application.MyListener - The element By.id: model was found
+INFO  application.MyListener - Start finde element by --> By.id: year
+INFO  application.MyListener - The element By.id: year was found
+INFO  application.MyListener - Start finde element by --> By.id: engine
+INFO  application.MyListener - The element By.id: engine was found
+INFO  application.MyListener - Start finde element by --> By.id: fuel
+INFO  application.MyListener - The element By.id: fuel was found
+INFO  application.MyListener - Start finde element by --> By.xpath: .//option[@value = "Petrol"]
+INFO  application.MyListener - The element By.xpath: .//option[@value = "Petrol"] was found
+INFO  application.MyListener - Start finde element by --> By.id: gear
+INFO  application.MyListener - The element By.id: gear was found
+INFO  application.MyListener - Start finde element by --> By.xpath: .//option[@value = "MT"]
+INFO  application.MyListener - The element By.xpath: .//option[@value = "MT"] was found
+INFO  application.MyListener - Start finde element by --> By.id: wheelsDrive
+INFO  application.MyListener - The element By.id: wheelsDrive was found
+INFO  application.MyListener - Start finde element by --> By.xpath: .//option[@value = "AWD"]
+INFO  application.MyListener - The element By.xpath: .//option[@value = "AWD"] was found
+INFO  application.MyListener - Start finde element by --> By.id: doors
+INFO  application.MyListener - The element By.id: doors was found
+INFO  application.MyListener - Start finde element by --> By.id: seats
+INFO  application.MyListener - The element By.id: seats was found
+INFO  application.MyListener - Start finde element by --> By.id: class
+INFO  application.MyListener - The element By.id: class was found
+INFO  application.MyListener - Start finde element by --> By.id: fuelConsumption
+INFO  application.MyListener - The element By.id: fuelConsumption was found
+INFO  application.MyListener - Start finde element by --> By.id: serialNumber
+INFO  application.MyListener - The element By.id: serialNumber was found
+INFO  application.MyListener - Start finde element by --> By.id: price
+INFO  application.MyListener - The element By.id: price was found
+INFO  application.MyListener - Start finde element by --> By.id: distance
+INFO  application.MyListener - The element By.id: distance was found
+INFO  application.MyListener - Start finde element by --> By.cssSelector: .feature-input
+INFO  application.MyListener - The element By.cssSelector: .feature-input was found
+INFO  application.MyListener - Start finde element by --> By.id: about
+INFO  application.MyListener - The element By.id: about was found
+INFO  application.MyListener - Start finde element by --> By.id: photos
+INFO  application.MyListener - The element By.id: photos was found
+INFO  application.MyListener - Start finde element by --> By.xpath: //*[.='Submit']
+INFO  application.MyListener - The element By.xpath: //*[.='Submit'] was found
+INFO  application.MyListener - Start finde element by --> By.xpath: //*[.='Car added']
+INFO  application.MyListener - The element By.xpath: //*[.='Car added'] was found
+INFO  application.MyListener - Start finde element by --> By.xpath: //*[.='Car added']
+INFO  application.MyListener - The element By.xpath: //*[.='Car added'] was found
+INFO  application.MyListener - Start finde element by --> By.xpath: //button[.='Search cars']
+INFO  application.MyListener - The element By.xpath: //button[.='Search cars'] was found
+INFO  TestBase - End of method: createNewCarDP
+INFO  TestBase - Start method: loginTestPositive
+INFO  application.MyListener - Start finde element by --> By.xpath: //*[.=' Log in ']
+INFO  application.MyListener - The element By.xpath: //*[.=' Log in '] was found
+INFO  application.MyListener - Start finde element by --> By.xpath: //a[.=' Logout ']
+INFO  application.MyListener - The element By.xpath: //a[.=' Logout '] was found
+INFO  application.MyListener - Start finde element by --> By.xpath: //*[.=' Log in ']
+INFO  application.MyListener - The element By.xpath: //*[.=' Log in '] was found
+INFO  application.MyListener - Start finde element by --> By.id: email
+INFO  application.MyListener - The element By.id: email was found
+INFO  application.MyListener - Start finde element by --> By.id: password
+INFO  application.MyListener - The element By.id: password was found
+INFO  application.MyListener - Start finde element by --> By.xpath: //button[@type='submit']
+INFO  application.MyListener - The element By.xpath: //button[@type='submit'] was found
+INFO  application.MyListener - Start finde element by --> By.xpath: //*[.='Logged in success']
+INFO  application.MyListener - The element By.xpath: //*[.='Logged in success'] was found
+INFO  application.MyListener - Start finde element by --> By.xpath: //button[.='Ok']
+INFO  application.MyListener - The element By.xpath: //button[.='Ok'] was found
+INFO  TestBase - End of method: loginTestPositive
+INFO  TestBase - Start method: loginTestPositiveDto
+INFO  application.MyListener - Start finde element by --> By.xpath: //*[.=' Log in ']
+INFO  application.MyListener - The element By.xpath: //*[.=' Log in '] was found
+INFO  application.MyListener - Start finde element by --> By.xpath: //a[.=' Logout ']
+INFO  application.MyListener - The element By.xpath: //a[.=' Logout '] was found
+INFO  application.MyListener - Start finde element by --> By.xpath: //*[.=' Log in ']
+INFO  application.MyListener - The element By.xpath: //*[.=' Log in '] was found
+INFO  application.MyListener - Start finde element by --> By.id: email
+INFO  application.MyListener - The element By.id: email was found
+INFO  application.MyListener - Start finde element by --> By.id: password
+INFO  application.MyListener - The element By.id: password was found
+INFO  application.MyListener - Start finde element by --> By.xpath: //button[@type='submit']
+INFO  application.MyListener - The element By.xpath: //button[@type='submit'] was found
+INFO  application.MyListener - Start finde element by --> By.xpath: //*[.='Logged in success']
+INFO  application.MyListener - The element By.xpath: //*[.='Logged in success'] was found
+INFO  application.MyListener - Start finde element by --> By.xpath: //button[.='Ok']
+INFO  application.MyListener - The element By.xpath: //button[.='Ok'] was found
+INFO  TestBase - End of method: loginTestPositiveDto
+INFO  TestBase - Start method: registrationTestCSV
+INFO  application.MyListener - Start finde element by --> By.xpath: //*[.=' Log in ']
+INFO  application.MyListener - The element By.xpath: //*[.=' Log in '] was found
+INFO  application.MyListener - Start finde element by --> By.xpath: //a[.=' Logout ']
+INFO  application.MyListener - The element By.xpath: //a[.=' Logout '] was found
+INFO  application.MyListener - Start finde element by --> By.xpath: //*[.=' Sign up ']
+INFO  application.MyListener - The element By.xpath: //*[.=' Sign up '] was found
+INFO  TestBase - Registration with Name: Sony, LastName: Low, Email: low+5@gmail.com258, Password: Ll12345$
+INFO  application.MyListener - Start finde element by --> By.cssSelector: input#name
+INFO  application.MyListener - The element By.cssSelector: input#name was found
+INFO  application.MyListener - Start finde element by --> By.cssSelector: input#lastName
+INFO  application.MyListener - The element By.cssSelector: input#lastName was found
+INFO  application.MyListener - Start finde element by --> By.cssSelector: input#email
+INFO  application.MyListener - The element By.cssSelector: input#email was found
+INFO  application.MyListener - Start finde element by --> By.cssSelector: input#password
+INFO  application.MyListener - The element By.cssSelector: input#password was found
+INFO  application.MyListener - Start finde element by --> By.xpath: //button[@type='submit']
+INFO  application.MyListener - The element By.xpath: //button[@type='submit'] was found
+INFO  application.MyListener - Start finde element by --> By.xpath: //*[.='Registered']
+INFO  application.MyListener - The element By.xpath: //*[.='Registered'] was found
+INFO  TestBase - Test passed
+INFO  application.MyListener - Start finde element by --> By.xpath: //button[.='Ok']
+INFO  application.MyListener - The element By.xpath: //button[.='Ok'] was found
+INFO  TestBase - End of method: registrationTestCSV
+INFO  TestBase - Start method: registrationTestCSV
+INFO  application.MyListener - Start finde element by --> By.xpath: //*[.=' Log in ']
+INFO  application.MyListener - The element By.xpath: //*[.=' Log in '] was found
+INFO  application.MyListener - Start finde element by --> By.xpath: //a[.=' Logout ']
+INFO  application.MyListener - The element By.xpath: //a[.=' Logout '] was found
+INFO  application.MyListener - Start finde element by --> By.xpath: //*[.=' Sign up ']
+INFO  application.MyListener - The element By.xpath: //*[.=' Sign up '] was found
+INFO  TestBase - Registration with Name: Sony, LastName: Low, Email: low+6@gmail.com258, Password: Ll12345$
+INFO  application.MyListener - Start finde element by --> By.cssSelector: input#name
+INFO  application.MyListener - The element By.cssSelector: input#name was found
+INFO  application.MyListener - Start finde element by --> By.cssSelector: input#lastName
+INFO  application.MyListener - The element By.cssSelector: input#lastName was found
+INFO  application.MyListener - Start finde element by --> By.cssSelector: input#email
+INFO  application.MyListener - The element By.cssSelector: input#email was found
+INFO  application.MyListener - Start finde element by --> By.cssSelector: input#password
+INFO  application.MyListener - The element By.cssSelector: input#password was found
+INFO  application.MyListener - Start finde element by --> By.xpath: //button[@type='submit']
+INFO  application.MyListener - The element By.xpath: //button[@type='submit'] was found
+INFO  application.MyListener - Start finde element by --> By.xpath: //*[.='Registered']
+INFO  application.MyListener - The element By.xpath: //*[.='Registered'] was found
+INFO  TestBase - Test passed
+INFO  application.MyListener - Start finde element by --> By.xpath: //button[.='Ok']
+INFO  application.MyListener - The element By.xpath: //button[.='Ok'] was found
+INFO  TestBase - End of method: registrationTestCSV
+INFO  TestBase - Start method: registrationTestCSV
+INFO  application.MyListener - Start finde element by --> By.xpath: //*[.=' Log in ']
+INFO  application.MyListener - The element By.xpath: //*[.=' Log in '] was found
+INFO  application.MyListener - Start finde element by --> By.xpath: //a[.=' Logout ']
+INFO  application.MyListener - The element By.xpath: //a[.=' Logout '] was found
+INFO  application.MyListener - Start finde element by --> By.xpath: //*[.=' Sign up ']
+INFO  application.MyListener - The element By.xpath: //*[.=' Sign up '] was found
+INFO  TestBase - Registration with Name: Sony, LastName: Low, Email: low+7@gmail.com258, Password: Ll12345$
+INFO  application.MyListener - Start finde element by --> By.cssSelector: input#name
+INFO  application.MyListener - The element By.cssSelector: input#name was found
+INFO  application.MyListener - Start finde element by --> By.cssSelector: input#lastName
+INFO  application.MyListener - The element By.cssSelector: input#lastName was found
+INFO  application.MyListener - Start finde element by --> By.cssSelector: input#email
+INFO  application.MyListener - The element By.cssSelector: input#email was found
+INFO  application.MyListener - Start finde element by --> By.cssSelector: input#password
+INFO  application.MyListener - The element By.cssSelector: input#password was found
+INFO  application.MyListener - Start finde element by --> By.xpath: //button[@type='submit']
+INFO  application.MyListener - The element By.xpath: //button[@type='submit'] was found
+INFO  application.MyListener - Start finde element by --> By.xpath: //*[.='Registered']
+INFO  application.MyListener - The element By.xpath: //*[.='Registered'] was found
+INFO  TestBase - Test passed
+INFO  application.MyListener - Start finde element by --> By.xpath: //button[.='Ok']
+INFO  application.MyListener - The element By.xpath: //button[.='Ok'] was found
+INFO  TestBase - End of method: registrationTestCSV
+INFO  TestBase - Start method: registrationTestFromDPClass
+INFO  application.MyListener - Start finde element by --> By.xpath: //*[.=' Log in ']
+INFO  application.MyListener - The element By.xpath: //*[.=' Log in '] was found
+INFO  application.MyListener - Start finde element by --> By.xpath: //a[.=' Logout ']
+INFO  application.MyListener - The element By.xpath: //a[.=' Logout '] was found
+INFO  application.MyListener - Start finde element by --> By.xpath: //*[.=' Sign up ']
+INFO  application.MyListener - The element By.xpath: //*[.=' Sign up '] was found
+INFO  TestBase - Registration with Name: Sony, LastName: Low, Email: noa+8@gmail.com307, Password: Nnoa12345$
+INFO  application.MyListener - Start finde element by --> By.cssSelector: input#name
+INFO  application.MyListener - The element By.cssSelector: input#name was found
+INFO  application.MyListener - Start finde element by --> By.cssSelector: input#lastName
+INFO  application.MyListener - The element By.cssSelector: input#lastName was found
+INFO  application.MyListener - Start finde element by --> By.cssSelector: input#email
+INFO  application.MyListener - The element By.cssSelector: input#email was found
+INFO  application.MyListener - Start finde element by --> By.cssSelector: input#password
+INFO  application.MyListener - The element By.cssSelector: input#password was found
+INFO  application.MyListener - Start finde element by --> By.xpath: //button[@type='submit']
+INFO  application.MyListener - The element By.xpath: //button[@type='submit'] was found
+INFO  application.MyListener - Start finde element by --> By.xpath: //*[.='Registered']
+INFO  application.MyListener - The element By.xpath: //*[.='Registered'] was found
+INFO  TestBase - Test passed
+INFO  application.MyListener - Start finde element by --> By.xpath: //button[.='Ok']
+INFO  application.MyListener - The element By.xpath: //button[.='Ok'] was found
+INFO  TestBase - End of method: registrationTestFromDPClass
+INFO  TestBase - Start method: registrationTestFromDPClass
+INFO  application.MyListener - Start finde element by --> By.xpath: //*[.=' Log in ']
+INFO  application.MyListener - The element By.xpath: //*[.=' Log in '] was found
+INFO  application.MyListener - Start finde element by --> By.xpath: //a[.=' Logout ']
+INFO  application.MyListener - The element By.xpath: //a[.=' Logout '] was found
+INFO  application.MyListener - Start finde element by --> By.xpath: //*[.=' Sign up ']
+INFO  application.MyListener - The element By.xpath: //*[.=' Sign up '] was found
+INFO  TestBase - Registration with Name: Sony, LastName: Low, Email: noa+9@gmail.com307, Password: Nnoa12345$
+INFO  application.MyListener - Start finde element by --> By.cssSelector: input#name
+INFO  application.MyListener - The element By.cssSelector: input#name was found
+INFO  application.MyListener - Start finde element by --> By.cssSelector: input#lastName
+INFO  application.MyListener - The element By.cssSelector: input#lastName was found
+INFO  application.MyListener - Start finde element by --> By.cssSelector: input#email
+INFO  application.MyListener - The element By.cssSelector: input#email was found
+INFO  application.MyListener - Start finde element by --> By.cssSelector: input#password
+INFO  application.MyListener - The element By.cssSelector: input#password was found
+INFO  application.MyListener - Start finde element by --> By.xpath: //button[@type='submit']
+INFO  application.MyListener - The element By.xpath: //button[@type='submit'] was found
+INFO  application.MyListener - Start finde element by --> By.xpath: //*[.='Registered']
+INFO  application.MyListener - The element By.xpath: //*[.='Registered'] was found
+INFO  TestBase - Test passed
+INFO  application.MyListener - Start finde element by --> By.xpath: //button[.='Ok']
+INFO  application.MyListener - The element By.xpath: //button[.='Ok'] was found
+INFO  TestBase - End of method: registrationTestFromDPClass
+INFO  TestBase - Start method: registrationTestFromDPClass
+INFO  application.MyListener - Start finde element by --> By.xpath: //*[.=' Log in ']
+INFO  application.MyListener - The element By.xpath: //*[.=' Log in '] was found
+INFO  application.MyListener - Start finde element by --> By.xpath: //a[.=' Logout ']
+INFO  application.MyListener - The element By.xpath: //a[.=' Logout '] was found
+INFO  application.MyListener - Start finde element by --> By.xpath: //*[.=' Sign up ']
+INFO  application.MyListener - The element By.xpath: //*[.=' Sign up '] was found
+INFO  TestBase - Registration with Name: Sony, LastName: Low, Email: sonya+10@gmail.com307, Password: Ss12345$
+INFO  application.MyListener - Start finde element by --> By.cssSelector: input#name
+INFO  application.MyListener - The element By.cssSelector: input#name was found
+INFO  application.MyListener - Start finde element by --> By.cssSelector: input#lastName
+INFO  application.MyListener - The element By.cssSelector: input#lastName was found
+INFO  application.MyListener - Start finde element by --> By.cssSelector: input#email
+INFO  application.MyListener - The element By.cssSelector: input#email was found
+INFO  application.MyListener - Start finde element by --> By.cssSelector: input#password
+INFO  application.MyListener - The element By.cssSelector: input#password was found
+INFO  application.MyListener - Start finde element by --> By.xpath: //button[@type='submit']
+INFO  application.MyListener - The element By.xpath: //button[@type='submit'] was found
+INFO  application.MyListener - Start finde element by --> By.xpath: //*[.='Registered']
+INFO  application.MyListener - The element By.xpath: //*[.='Registered'] was found
+INFO  TestBase - Test passed
+INFO  application.MyListener - Start finde element by --> By.xpath: //button[.='Ok']
+INFO  application.MyListener - The element By.xpath: //button[.='Ok'] was found
+INFO  TestBase - End of method: registrationTestFromDPClass
+INFO  TestBase - Start method: registrationTestPositive
+INFO  application.MyListener - Start finde element by --> By.xpath: //*[.=' Log in ']
+INFO  application.MyListener - The element By.xpath: //*[.=' Log in '] was found
+INFO  application.MyListener - Start finde element by --> By.xpath: //a[.=' Logout ']
+INFO  application.MyListener - The element By.xpath: //a[.=' Logout '] was found
+INFO  application.MyListener - Start finde element by --> By.xpath: //*[.=' Sign up ']
+INFO  application.MyListener - The element By.xpath: //*[.=' Sign up '] was found
+INFO  TestBase - Registration with Name: Albert, LastName: Einstein, Email: emc2@gmail.com367, Password: Hb14031879$
+INFO  application.MyListener - Start finde element by --> By.cssSelector: input#name
+INFO  application.MyListener - The element By.cssSelector: input#name was found
+INFO  application.MyListener - Start finde element by --> By.cssSelector: input#lastName
+INFO  application.MyListener - The element By.cssSelector: input#lastName was found
+INFO  application.MyListener - Start finde element by --> By.cssSelector: input#email
+INFO  application.MyListener - The element By.cssSelector: input#email was found
+INFO  application.MyListener - Start finde element by --> By.cssSelector: input#password
+INFO  application.MyListener - The element By.cssSelector: input#password was found
+INFO  application.MyListener - Start finde element by --> By.xpath: //button[@type='submit']
+INFO  application.MyListener - The element By.xpath: //button[@type='submit'] was found
+INFO  application.MyListener - Start finde element by --> By.xpath: //*[.='Registered']
+INFO  application.MyListener - The element By.xpath: //*[.='Registered'] was found
+INFO  TestBase - Test passed
+INFO  application.MyListener - Start finde element by --> By.xpath: //button[.='Ok']
+INFO  application.MyListener - The element By.xpath: //button[.='Ok'] was found
+INFO  TestBase - End of method: registrationTestPositive
+INFO  TestBase - Start method: searchTestNegative
+INFO  application.MyListener - Start finde element by --> By.xpath: //a[@href='/']
+INFO  application.MyListener - The element By.xpath: //a[@href='/'] was found
+INFO  application.MyListener - Start finde element by --> By.cssSelector: .search-container
+INFO  application.MyListener - The element By.cssSelector: .search-container was found
+INFO  application.MyListener - Start finde element by --> By.id: city
+INFO  application.MyListener - The element By.id: city was found
+INFO  application.MyListener - Start finde element by --> By.xpath: //div[@class='pac-item']
+INFO  application.MyListener - The element By.xpath: //div[@class='pac-item'] was found
+INFO  application.MyListener - Start finde element by --> By.id: dates
+INFO  application.MyListener - The element By.id: dates was found
+INFO  application.MyListener - Start finde element by --> By.cssSelector: div.cdk-overlay-container
+INFO  application.MyListener - The element By.cssSelector: div.cdk-overlay-container was found
+INFO  application.MyListener - Start finde element by --> By.xpath: //div[@class = 'ng-star-inserted']
+INFO  application.MyListener - The element By.xpath: //div[@class = 'ng-star-inserted'] was found
+INFO  application.MyListener - Start finde element by --> By.xpath: //button[@type='submit']
+INFO  application.MyListener - The element By.xpath: //button[@type='submit'] was found
+INFO  TestBase - End of method: searchTestNegative
+INFO  TestBase - Start method: searchTestPositive
+INFO  application.MyListener - Start finde element by --> By.xpath: //a[@href='/']
+INFO  application.MyListener - The element By.xpath: //a[@href='/'] was found
+INFO  application.MyListener - Start finde element by --> By.cssSelector: .search-container
+INFO  application.MyListener - The element By.cssSelector: .search-container was found
+INFO  TestBase - "Haifa", "08/26/2021", "08/30/2021"
+INFO  application.MyListener - Start finde element by --> By.id: city
+INFO  application.MyListener - The element By.id: city was found
+INFO  application.MyListener - Start finde element by --> By.xpath: //div[@class='pac-item']
+INFO  application.MyListener - The element By.xpath: //div[@class='pac-item'] was found
+INFO  application.MyListener - Start finde element by --> By.id: dates
+INFO  application.MyListener - The element By.id: dates was found
+INFO  application.MyListener - Start finde element by --> By.cssSelector: div.cdk-overlay-container
+INFO  application.MyListener - The element By.cssSelector: div.cdk-overlay-container was found
+INFO  application.MyListener - Start finde element by --> By.xpath: //button[@type='submit']
+INFO  application.MyListener - The element By.xpath: //button[@type='submit'] was found
+INFO  application.MyListener - Start finde element by --> By.cssSelector: div.search-results
+INFO  application.MyListener - The element By.cssSelector: div.search-results was found
+INFO  TestBase - End of method: searchTestPositive
+INFO  TestBase - Start method: selectPeriodCurrentMonth
+INFO  application.MyListener - Start finde element by --> By.xpath: //a[@href='/']
+INFO  application.MyListener - The element By.xpath: //a[@href='/'] was found
+INFO  application.MyListener - Start finde element by --> By.cssSelector: .search-container
+INFO  application.MyListener - The element By.cssSelector: .search-container was found
+INFO  application.MyListener - Start finde element by --> By.id: city
+INFO  application.MyListener - The element By.id: city was found
+INFO  application.MyListener - Start finde element by --> By.xpath: //div[@class='pac-item']
+INFO  application.MyListener - The element By.xpath: //div[@class='pac-item'] was found
+INFO  application.MyListener - Start finde element by --> By.id: dates
+INFO  application.MyListener - The element By.id: dates was found
+INFO  application.MyListener - Start finde element by --> By.xpath: //div[text() = ' 26 ']
+INFO  application.MyListener - The element By.xpath: //div[text() = ' 26 '] was found
+INFO  application.MyListener - Start finde element by --> By.xpath: //div[text() = ' 30 ']
+INFO  application.MyListener - The element By.xpath: //div[text() = ' 30 '] was found
+INFO  application.MyListener - Start finde element by --> By.xpath: //button[@type='submit']
+INFO  application.MyListener - The element By.xpath: //button[@type='submit'] was found
+INFO  application.MyListener - Start finde element by --> By.cssSelector: div.search-results
+INFO  application.MyListener - The element By.cssSelector: div.search-results was found
+INFO  TestBase - End of method: selectPeriodCurrentMonth
+INFO  TestBase - Start method: selectPeriodInFuture
+INFO  application.MyListener - Start finde element by --> By.xpath: //a[@href='/']
+INFO  application.MyListener - The element By.xpath: //a[@href='/'] was found
+INFO  application.MyListener - Start finde element by --> By.cssSelector: .search-container
+INFO  application.MyListener - The element By.cssSelector: .search-container was found
+INFO  application.MyListener - Start finde element by --> By.id: city
+INFO  application.MyListener - The element By.id: city was found
+INFO  application.MyListener - Start finde element by --> By.xpath: //div[@class='pac-item']
+INFO  application.MyListener - The element By.xpath: //div[@class='pac-item'] was found
+INFO  application.MyListener - Start finde element by --> By.id: dates
+INFO  application.MyListener - The element By.id: dates was found
+INFO  application.MyListener - Start finde element by --> By.xpath: //div[text() = ' 26 ']
+INFO  application.MyListener - The element By.xpath: //div[text() = ' 26 '] was found
+INFO  application.MyListener - Start finde element by --> By.xpath: //div[text() = ' 30 ']
+INFO  application.MyListener - The element By.xpath: //div[text() = ' 30 '] was found
+INFO  application.MyListener - Start finde element by --> By.xpath: //button[@type='submit']
+INFO  application.MyListener - The element By.xpath: //button[@type='submit'] was found
+INFO  application.MyListener - Start finde element by --> By.cssSelector: div.search-results
+INFO  application.MyListener - The element By.cssSelector: div.search-results was found
+INFO  TestBase - End of method: selectPeriodInFuture

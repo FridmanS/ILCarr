@@ -1,3 +1,4 @@
+import application.MyDataProvider;
 import models.Car;
 import models.User;
 import org.testng.Assert;
@@ -45,6 +46,15 @@ public class CreateNewCarTest extends TestBase{
         app.carHelper().attachPhoto();
         app.carHelper().submitCar();
 
+        Assert.assertEquals(app.carHelper().getTextAddCarResult(), "Car added");
+    }
+
+    @Test(dataProvider = "validCarData", dataProviderClass = MyDataProvider.class)
+    public void createNewCarDP(Car car){
+        app.carHelper().openCarForm();
+        app.carHelper().fillCarForm(car);
+        app.carHelper().attachPhoto(car);
+        app.carHelper().submitCar();
         Assert.assertEquals(app.carHelper().getTextAddCarResult(), "Car added");
     }
 

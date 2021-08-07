@@ -1,0 +1,3 @@
+INFO  application.ApplicationManager - Start browser CHROME
+INFO  application.ApplicationManager - Navigate to https://ilcarro.xyz/search
+INFO  TestBase - Start method: createNewCarDP

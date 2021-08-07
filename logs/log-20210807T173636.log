@@ -1,0 +1,14 @@
+17:36:37 INFO  application.ApplicationManager - Start browser CHROME
+17:36:39 INFO  application.ApplicationManager - Navigate to https://ilcarro.xyz/search
+17:36:39 INFO  TestBase - Start method: registrationTestFromDPClass
+17:36:39 INFO  TestBase - Registration with Name: Sony, LastName: Low, Email: noa+8@gmail.com, Password: Nnoa12345$
+17:36:45 INFO  TestBase - Test passed
+17:36:45 INFO  TestBase - End of method: registrationTestFromDPClass
+17:36:45 INFO  TestBase - Start method: registrationTestFromDPClass
+17:36:55 INFO  TestBase - Registration with Name: Sony, LastName: Low, Email: noa+9@gmail.com, Password: Nnoa12345$
+17:37:01 INFO  TestBase - Test passed
+17:37:01 INFO  TestBase - End of method: registrationTestFromDPClass
+17:37:01 INFO  TestBase - Start method: registrationTestFromDPClass
+17:37:11 INFO  TestBase - Registration with Name: Sony, LastName: Low, Email: sonya+10@gmail.com, Password: Ss12345$
+17:37:16 INFO  TestBase - Test passed
+17:37:16 INFO  TestBase - End of method: registrationTestFromDPClass

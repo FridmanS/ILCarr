@@ -1,3 +1,4 @@
+import application.MyDataProvider;
 import models.User;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
@@ -19,6 +20,30 @@ public class RegistrationTest extends TestBase {
         app.userHelper().openRegistrationForm();
         User u1 = new User().withFName("Albert").withLName("Einstein")
                 .withEmail("emc2@gmail.com" + i).withPassword("Hb14031879$");
+        logger.info(String.format("Registration with Name: %s, LastName: %s, Email: %s, Password: %s",
+                u1.getFName(), u1.getLName(), u1.getEmail(), u1.getPassword()));
+        app.userHelper().fillRegistrationForm(u1);
+        app.userHelper().submitForm();
+        Assert.assertEquals(app.userHelper().getTextRegResult(), "Registered");
+        logger.info("Test passed");
+    }
+
+    @Test(groups = {"web"}, dataProvider = "registCSV", dataProviderClass = MyDataProvider.class)
+    public void registrationTestCSV(User u1){
+        app.userHelper().openRegistrationForm();
+        logger.info(String.format("Registration with Name: %s, LastName: %s, Email: %s, Password: %s",
+                u1.getFName(), u1.getLName(), u1.getEmail(), u1.getPassword()));
+        app.userHelper().fillRegistrationForm(u1);
+        app.userHelper().submitForm();
+        Assert.assertEquals(app.userHelper().getTextRegResult(), "Registered");
+        logger.info("Test passed");
+    }
+
+    @Test(groups = {"web"}, dataProvider = "validRegD.ataClassDP", dataProviderClass = MyDataProvider.class)
+    public void registrationTestFromDPClass(String fName, String lName, String email, String password){
+        User u1 = new User().withFName(fName).withLName(lName)
+                .withEmail(email).withPassword(password);
+        app.userHelper().openRegistrationForm();
         logger.info(String.format("Registration with Name: %s, LastName: %s, Email: %s, Password: %s",
                 u1.getFName(), u1.getLName(), u1.getEmail(), u1.getPassword()));
         app.userHelper().fillRegistrationForm(u1);
