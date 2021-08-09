@@ -51,9 +51,13 @@ public class UserHelper extends HelperBase{
         type(By.cssSelector("input#lastName"), u.getLName());
         type(By.cssSelector("input#email"), u.getEmail());
         type(By.cssSelector("input#password"), u.getPassword());
-        JavascriptExecutor js = (JavascriptExecutor)wd;
-        js.executeScript("document.querySelector('#terms-of-use').click()");
+        checkPolicy();
         //click(By.cssSelector(".checkbox-container"));
+    }
+
+    private void checkPolicy() {
+        JavascriptExecutor js = (JavascriptExecutor)wd;
+        js.executeScript("document.querySelector('#terms-of-use').click();");
     }
 
     public String getTextRegResult() {
