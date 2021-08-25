@@ -33,9 +33,7 @@ task reg(type: Test){
         }
 
         def suit = System.getProperty('suite', '')
-        if (suit.equals('quick')) {
-            suites 'src/test/resources/quick.xml'
-        }
+        suites 'src/test/resources/quick.xml'
     }
     if (project.hasProperty('browser')) {
         systemProperty 'browser', "${browser}"

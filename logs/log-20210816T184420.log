@@ -1,0 +1,36 @@
+INFO  application.ApplicationManager - Start browser CHROME
+INFO  application.ApplicationManager - Navigate to https://ilcarro.xyz/search
+INFO  TestBase - Start method: loginTestPositive
+INFO  application.MyListener - Start finde element by --> By.xpath: //*[.=' Log in ']
+INFO  application.MyListener - The element By.xpath: //*[.=' Log in '] was found
+INFO  application.MyListener - Start finde element by --> By.xpath: //*[.=' Log in ']
+INFO  application.MyListener - The element By.xpath: //*[.=' Log in '] was found
+INFO  application.MyListener - Start finde element by --> By.id: email
+INFO  application.MyListener - The element By.id: email was found
+INFO  application.MyListener - Start finde element by --> By.id: password
+INFO  application.MyListener - The element By.id: password was found
+INFO  application.MyListener - Start finde element by --> By.xpath: //button[@type='submit']
+INFO  application.MyListener - The element By.xpath: //button[@type='submit'] was found
+INFO  application.MyListener - Start finde element by --> By.xpath: //*[.='Logged in success']
+INFO  application.MyListener - The element By.xpath: //*[.='Logged in success'] was found
+INFO  application.MyListener - Start finde element by --> By.xpath: //button[.='Ok']
+INFO  application.MyListener - The element By.xpath: //button[.='Ok'] was found
+INFO  TestBase - End of method: loginTestPositive
+INFO  TestBase - Start method: loginTestPositiveDto
+INFO  application.MyListener - Start finde element by --> By.xpath: //*[.=' Log in ']
+INFO  application.MyListener - The element By.xpath: //*[.=' Log in '] was found
+INFO  application.MyListener - Start finde element by --> By.xpath: //a[.=' Logout ']
+INFO  application.MyListener - The element By.xpath: //a[.=' Logout '] was found
+INFO  application.MyListener - Start finde element by --> By.xpath: //*[.=' Log in ']
+INFO  application.MyListener - The element By.xpath: //*[.=' Log in '] was found
+INFO  application.MyListener - Start finde element by --> By.id: email
+INFO  application.MyListener - The element By.id: email was found
+INFO  application.MyListener - Start finde element by --> By.id: password
+INFO  application.MyListener - The element By.id: password was found
+INFO  application.MyListener - Start finde element by --> By.xpath: //button[@type='submit']
+INFO  application.MyListener - The element By.xpath: //button[@type='submit'] was found
+INFO  application.MyListener - Start finde element by --> By.xpath: //*[.='Logged in success']
+INFO  application.MyListener - The element By.xpath: //*[.='Logged in success'] was found
+INFO  application.MyListener - Start finde element by --> By.xpath: //button[.='Ok']
+INFO  application.MyListener - The element By.xpath: //button[.='Ok'] was found
+INFO  TestBase - End of method: loginTestPositiveDto
